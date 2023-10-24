@@ -1,6 +1,8 @@
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className=" min-h-screen bg-[#ffe8e7]">
+
+    </div>
   )
 }
 
