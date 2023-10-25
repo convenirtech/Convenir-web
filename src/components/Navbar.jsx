@@ -3,14 +3,18 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const handServices = () => {
+    const service = document.getElementById("Service");
+    service.scrollIntoView({behavior:"smooth"})
+  }
 
   return (
-    <div className=" fixed top-0 w-full lg:px-12 px-4 py-4 bg-[#ffe8e7]">
+    <div className=" fixed top-0 z-50 w-full lg:px-12 px-4 py-4 bg-[#ffe8e7]">
       <nav className=" flex justify-between w-full items-center">
         <div>
           <a href="/">
             <img
-              className=" w-24 object-cover"
+              className=" lg:w-36 md:w-32 w-24 object-cover"
               src="/src/assets/logo.png"
               alt="Logo"
               loading="lazy"
@@ -19,11 +23,11 @@ const Navbar = () => {
         </div>
         <div>
           <ul className=" lg:flex gap-10 hidden font-semibold items-center">
-            <li className=" hover:text-[#ca2124]">Why Convenir Express?</li>
-            <li className=" hover:text-[#ca2124]">Services</li>
-            <li className=" hover:text-[#ca2124]">Menu</li>
-            <li className=" hover:text-[#ca2124]">Contact</li>
-            <li className=" bg-[#ca2124] text-white p-3 rounded-full flex items-center gap-2 ">
+            <button className=" hover:text-[#ca2124]">Why Convenir Express?</button>
+            <button onClick={handServices} className=" hover:text-[#ca2124]">Services</button>
+            <button className=" hover:text-[#ca2124]">Catalog</button>
+            <button className=" hover:text-[#ca2124]">Contact</button>
+            <button className=" bg-[#ca2124] text-white p-3 rounded-full flex items-center gap-2 ">
               <button>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +45,7 @@ const Navbar = () => {
                 </svg>
               </button>
               <span>Login</span>
-            </li>
+            </button>
           </ul>
         </div>
         <div className=" lg:hidden flex">
