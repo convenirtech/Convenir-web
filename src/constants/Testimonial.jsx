@@ -1,20 +1,20 @@
 export const Testimonials = [
   {
-    image: "/src/assets/face1.png",
+    image: "/src/assets/p1.png",
     name: "Samuel Doe",
     summary:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Rerum quo dolore cupiditate dolores iure veniam eos autem. Est adipisci in animi eligendi eum consequatur! Velit nisi consequatur assumenda impedit quos, obcaecati, optio quibusdam.",
     rating: "",
   },
   {
-    image: "/src/assets/face2.png",
+    image: "/src/assets/p2.png",
     name: "Jane Doe",
     summary:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Rerum quo dolore cupiditate dolores iure veniam eos autem. Est adipisci in animi eligendi eum consequatur! Velit nisi consequatur assumenda impedit quos, obcaecati, optio quibusdam.",
     rating: "",
   },
   {
-    image: "/src/assets/face3.png",
+    image: "/src/assets/p3.png",
     name: "Nathan Doe",
     summary:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Rerum quo dolore cupiditate dolores iure veniam eos autem. Est adipisci in animi eligendi eum consequatur! Velit nisi consequatur assumenda impedit quos, obcaecati, optio quibusdam.",
