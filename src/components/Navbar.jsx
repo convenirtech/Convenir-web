@@ -5,11 +5,11 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   const handServices = () => {
     const service = document.getElementById("Service");
-    service.scrollIntoView({behavior:"smooth"})
-  }
+    service.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
-    <div className=" fixed top-0 z-50 w-full lg:px-12 px-4 py-4 bg-[#ffe8e7]">
+    <div className=" fixed top-0 z-50 w-full lg:px-20 px-4 py-4 bg-[#ffe8e7]">
       <nav className=" flex justify-between w-full items-center">
         <div>
           <a href="/">
@@ -23,8 +23,12 @@ const Navbar = () => {
         </div>
         <div>
           <ul className=" lg:flex gap-10 hidden font-semibold items-center">
-            <button className=" hover:text-[#ca2124]">Why Convenir Express?</button>
-            <button onClick={handServices} className=" hover:text-[#ca2124]">Services</button>
+            <button className=" hover:text-[#ca2124]">
+              Why Convenir Express?
+            </button>
+            <button onClick={handServices} className=" hover:text-[#ca2124]">
+              Services
+            </button>
             <button className=" hover:text-[#ca2124]">Catalog</button>
             <button className=" hover:text-[#ca2124]">Contact</button>
             <button className=" bg-[#ca2124] text-white p-3 rounded-full flex items-center gap-2 ">
@@ -84,33 +88,41 @@ const Navbar = () => {
               </span>
             )}
           </button>
-            <motion.div animate={open?{translateX:0,opacity:1}:{translateX:"100%",opacity:0}} transition={{type:"tween"}} className=" absolute right-0 top-[100%] bg-[#ffe8e7] shadow-md h-screen w-2/3">
-              <ul className=" grid gap-4 mt-4 p-4">
-                <li className=" hover:text-[#ca2124]">Why Convenir Express?</li>
-                <li className=" hover:text-[#ca2124]">Services</li>
-                <li className=" hover:text-[#ca2124]">Menu</li>
-                <li className=" hover:text-[#ca2124]">Contact</li>
-                <li className=" bg-[#ca2124] text-white p-3 rounded-full w-fit flex items-center gap-2 ">
-                  <button>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-6 h-6"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"
-                      />
-                    </svg>
-                  </button>
-                  <span>Login</span>
-                </li>
-              </ul>
-            </motion.div>
+          <motion.div
+            animate={
+              open
+                ? { translateX: 0, opacity: 1 }
+                : { translateX: "100%", opacity: 0 }
+            }
+            transition={{ type: "tween" }}
+            className=" absolute right-0 top-[100%] bg-[#ffe8e7] shadow-md h-screen w-2/3"
+          >
+            <ul className=" grid gap-4 mt-4 p-4">
+              <li className=" hover:text-[#ca2124]">Why Convenir Express?</li>
+              <li className=" hover:text-[#ca2124]">Services</li>
+              <li className=" hover:text-[#ca2124]">Menu</li>
+              <li className=" hover:text-[#ca2124]">Contact</li>
+              <li className=" bg-[#ca2124] text-white p-3 rounded-full w-fit flex items-center gap-2 ">
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9"
+                    />
+                  </svg>
+                </button>
+                <span>Login</span>
+              </li>
+            </ul>
+          </motion.div>
         </div>
       </nav>
     </div>

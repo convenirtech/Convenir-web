@@ -2,7 +2,10 @@ import { services } from "../constants/Services";
 
 const Services = () => {
   return (
-    <div id="Service" className=" min-h-screen flex w-full items-center justify-center lg:px-12 px-4 lg:flex-row flex-col gap-10">
+    <div
+      id="Service"
+      className=" min-h-screen flex w-full items-center justify-center lg:px-20 px-4 lg:flex-row flex-col gap-10 sm:mb-8"
+    >
       <div className=" flex lg:w-1/3 w-full flex-col lg:items-start items-center gap-4">
         <h1 className=" text-4xl font-extrabold"> Why we are the best? </h1>
         <p className=" lg:text-left text-center text-gray-600">

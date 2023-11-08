@@ -6,20 +6,21 @@ const Testimonial = () => {
   return (
     <div
       id="Testimonial"
-      className=" grid place-items-center min-h-screen w-full bg-[#fde4e3]"
+      className="flex flex-col min-h-screen w-full bg-[#fde4e3] px-4 md:px-10 lg:p-12"
     >
-      <div>
-        <h1>2000+</h1>
-        <p>Regular Customers</p>
+      <div className=" lg:text-center md:text-center text-center sm:py-8">
+        <h1 className=" font-bold text-6xl">2000+</h1>
+        <p className=" text-[#ca2124] font-semibold">Regular Customers</p>
+        <p className=" text-4xl">Our Customers Say</p>
       </div>
-      <div className=" grid grid-cols-2 p-10 gap-10 w-full">
-        <div className="bg-[#fde4e3] rounded-2xl shadow-lg overflow-hidden rotate-1">
+      <div className=" grid w-full py-5 items-center justify-center">
+        <div className="bg-[#fde4e3] overflow-hidden grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 w-full items-center justify-center">
           {Testimonials.map((item, i) => (
             <figure
               key={i}
-              className=" bg-white rounded shadow-lg overflow-hidden rotate-1 hover:rotate-0 transition duration-200"
+              className=" bg-white rounded-xl shadow-lg overflow-hidden rotate-0 hover:rotate-1 hover:scale-95 delay-200 transition duration-500 lg:max-w-sm md:max-w-lg w-full"
             >
-              <blockquote className=" p-20">
+              <blockquote className=" p-16">
                 <div className=" mb-5 text-yellow-100">
                   <svg
                     className="w-8 h-8 text-gray-400 dark:text-gray-600 mb-4"
@@ -33,7 +34,7 @@ const Testimonial = () => {
                 </div>
                 <p>&ldquo;{item.summary}&rdquo;</p>
               </blockquote>
-              <div className=" flex items-center justify-between px-8 py-4 bg-gradient-to-br from-yellow-500 to-orange-500">
+              <div className=" flex items-center justify-between px-14 py-4 bg-gradient-to-br from-red-500 to-orange-500">
                 <div className=" flex items-center gap-5">
                   <div className=" rounded-full border-4 w-14 h-14 border-white overflow-hidden">
                     <img
