@@ -10,12 +10,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" fixed top-0 z-50 w-full lg:px-20 px-4 py-4 bg-[#ffe8e7] bg-opacity-80 backdrop-blur-md">
+    <div className=" fixed top-0 z-50 w-full lg:px-20 px-4 py-5 bg-[#ffe8e7] bg-opacity-80 backdrop-blur-md">
       <nav className=" flex justify-between w-full items-center">
         <div>
           <a href="/">
             <img
-              className=" lg:w-36 md:w-32 w-24 object-cover"
+              className=" lg:w-36 md:w-32 w-28 object-cover"
               src={logo}
               alt="Logo"
               loading="lazy"
