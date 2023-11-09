@@ -7,7 +7,7 @@ const Services = () => {
       className=" min-h-screen flex w-full items-center justify-center lg:px-20 px-4 lg:flex-row flex-col gap-10 sm:mb-8 py-16"
     >
       <div className=" flex lg:w-1/3 w-full flex-col lg:items-start items-center gap-4">
-        <h1 className=" text-4xl font-extrabold lg:text-left text-center">
+        <h1 className=" text-4xl font-extrabold lg:text-left text-center text-[#2f285d]">
           {" "}
           Why we are the best?{" "}
         </h1>

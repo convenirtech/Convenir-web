@@ -6,7 +6,7 @@ const Header = () => {
   // const { title, subtitle, btnText, image } = herodata;
 
   return (
-    <div className=" w-full min-h-screen bg-[#ffe8e7] px-4 lg:grid-cols-2 grid-cols-1 grid lg:px-20 items-center justify-center py-56 md:py-32 lg:py-0">
+    <div className=" w-full min-h-screen bg-[#ffe8e7] px-4 lg:grid-cols-2 grid-cols-1 grid lg:px-10 items-center justify-center py-56 md:py-32 lg:py-0">
       {/* Text */}
       <div className="grid w-full gap-4 lg:text-left text-center">
         <h1 className=" font-extrabold text-5xl lg:text-7xl text-[#2f285d]">
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
       </div>
       {/* Image */}
-      <div className=" w-full items-center justify-center">
+      <div className=" w-full items-center justify-center mt-40">
         <Player
           src={
             "https://lottie.host/de6479e1-1bf1-423c-8eb2-01375096300a/4APS1QRN7Z.json"

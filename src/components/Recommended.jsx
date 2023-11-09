@@ -6,7 +6,7 @@ const Recommended = () => {
   return (
     <div className=" grid py-16 md:grid-cols-2 min-h-screen w-full items-center overflow-hidden justify-center lg:px-20 px-4 gap-10 sm:mb-8">
       <div className=" lg:text-left md:text-center sm:text-center">
-        <h1 className=" font-semibold lg:w-5/6 md:text-5xl text-3xl lg:text-left text-center">
+        <h1 className=" font-semibold lg:w-5/6 md:text-5xl text-3xl lg:text-left text-center text-[#2f285d]">
           Get up to <span className=" text-[#ca2124]">20%</span> discount when
           making an order with our app
         </h1>

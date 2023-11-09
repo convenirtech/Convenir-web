@@ -9,7 +9,7 @@ const Testimonial = () => {
       className="flex py-16 flex-col min-h-screen w-full bg-[#fde4e3] px-4 md:px-10 lg:p-12"
     >
       <div className=" lg:text-center md:text-center text-center py-4">
-        <h1 className=" font-bold text-6xl text-gray-800">2000+</h1>
+        <h1 className=" font-bold text-6xl text-[#2f285d]">2000+</h1>
         <p className=" text-[#ca2124] font-semibold">Regular Customers</p>
         <p className=" text-4xl">Our Customers Say</p>
       </div>
