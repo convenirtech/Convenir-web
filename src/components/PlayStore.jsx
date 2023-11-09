@@ -1,4 +1,4 @@
-const Google = () => {
+const PlayStore = () => {
   return (
     <svg viewBox="10 10 135 40" xmlns="http://www.w3.org/2000/svg" width="150">
       <path d="M140 50H15c-2.75 0-5-2.25-5-5V15c0-2.75 2.25-5 5-5h125c2.75 0 5 2.25 5 5v30c0 2.75-2.25 5-5 5z" />
@@ -34,4 +34,4 @@ const Google = () => {
     </svg>
   );
 };
-export default Google;
+export default PlayStore;

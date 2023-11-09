@@ -1,6 +1,6 @@
 import app from "../assets/images/app.png";
-import AppStore from "./apple";
-import Google from "./google";
+import AppStore from "./Apple";
+import PlayStore from "./PlayStore";
 
 const Recommended = () => {
   return (
@@ -18,7 +18,7 @@ const Recommended = () => {
         </div>
         <div className=" flex gap-8 items-center justify-center lg:justify-start">
           <AppStore />
-          <Google />
+          <PlayStore />
         </div>
       </div>
 
