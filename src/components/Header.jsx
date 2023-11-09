@@ -1,5 +1,5 @@
 // import { herodata } from "./data";
-import heroImage from "../assets/HeroIcon.svg";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const Header = () => {
   // destructure data here
@@ -25,10 +25,13 @@ const Header = () => {
         </div>
       </div>
       {/* Image */}
-      <div className=" w-full items-center justify-center h-full">
-        <img
-          src={heroImage}
-          alt="Hero"
+      <div className=" w-full items-center justify-center">
+        <Player
+          src={
+            "https://lottie.host/de6479e1-1bf1-423c-8eb2-01375096300a/4APS1QRN7Z.json"
+          }
+          loop={true}
+          autoplay={true}
           className=" w-full h-full object-cover"
         />
       </div>

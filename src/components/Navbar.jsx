@@ -98,12 +98,24 @@ const Navbar = () => {
             transition={{ type: "tween" }}
             className=" absolute right-0 top-[100%] bg-[#ffe8e7] shadow-md h-screen w-2/3"
           >
-            <ul className=" grid gap-4 mt-4 p-4">
-              <li className=" hover:text-[#ca2124]">Why Convenir Express?</li>
-              <li className=" hover:text-[#ca2124]">Services</li>
-              <li className=" hover:text-[#ca2124]">Menu</li>
-              <li className=" hover:text-[#ca2124]">Contact</li>
-              <li className=" bg-[#ca2124] text-white p-3 rounded-full w-fit flex items-center gap-2 ">
+            <ul className=" grid gap-4 mt-4 p-4 text-left items-start justify-start w-full">
+              <div className=" hover:text-[#ca2124] cursor-pointer">
+                Why Convenir Express?
+              </div>
+              <div
+                onClick={() => {
+                  setOpen(false);
+                  handServices();
+                }}
+                className=" hover:text-[#ca2124] cursor-pointer"
+              >
+                Services
+              </div>
+              <div className=" hover:text-[#ca2124] cursor-pointer">Menu</div>
+              <div className=" hover:text-[#ca2124] cursor-pointer">
+                Contact
+              </div>
+              <div className=" bg-[#ca2124] text-white cursor-pointer p-3 rounded-full w-fit flex items-center gap-2 ">
                 <button>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +133,7 @@ const Navbar = () => {
                   </svg>
                 </button>
                 <span>Login</span>
-              </li>
+              </div>
             </ul>
           </motion.div>
         </div>

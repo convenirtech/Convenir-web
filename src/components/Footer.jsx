@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
-    <div>
+    <div className=" bg-[#2f285d] text-white lg:pt-12 pt-10">
       {/* Footer heading Convenir */}
       <div className=" items-center flex w-full text-center">
-        <h1 className=" items-center pl-2 md:pl-6 w-full text-black font-bold text-2xl md:text-3xl">
+        <h1 className=" items-center pl-2 md:pl-6 w-full text-white font-bold text-2xl md:text-3xl">
           Con<span className=" text-[#ca2124]">ven</span>ir
         </h1>
       </div>
@@ -15,7 +15,7 @@ const Footer = () => {
             {/*Resources Container*/}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4 items-center">
               {/*Heading-Resources*/}
-              <h2 className="title-font text-gray-500 font-bold tracking-widest text-sm mb-8">
+              <h2 className="title-font  font-bold tracking-widest text-sm mb-8">
                 Resources
               </h2>
 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/about-us"
-                    className="text-[#213053] hover:text-[#ca2124] cursor-pointer"
+                    className="text-gray-200 hover:text-[#ca2124] cursor-pointer"
                   >
                     About
                   </a>
@@ -32,18 +32,18 @@ const Footer = () => {
                 <li>
                   <a
                     href="/mental-health"
-                    className="text-[#213053] hover:text-[#ca2124] cursor-pointer"
+                    className="text-gray-200 hover:text-[#ca2124] cursor-pointer"
                   >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Terms & Conditions
                   </a>
                 </li>
@@ -53,34 +53,34 @@ const Footer = () => {
             {/*Socials Container*/}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               {/*Socials Heading*/}
-              <h2 className="title-font font-bold text-gray-500 tracking-widest text-sm mb-8">
+              <h2 className="title-font font-bold  tracking-widest text-sm mb-8">
                 Socials
               </h2>
 
               {/*Social Links*/}
               <nav className="list-none mb-10 space-y-2 md:space-y-4 text-[12px] md:text-[14px]">
                 <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Facebook
                   </a>
                 </li>
                 {/* <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Twitter
                   </a>
                 </li> */}
                 <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Linkedln
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                  <a className="text-gray-200 hover:text-[#ca2124] cursor-pointer">
                     Whatsapp
                   </a>
                 </li>
@@ -90,14 +90,14 @@ const Footer = () => {
             {/*Get In Touch Container*/}
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               {/*Get In Touch Heading*/}
-              <h2 className="title-font font-bold text-gray-500 tracking-widest text-sm mb-8">
+              <h2 className="title-font font-bold  tracking-widest text-sm mb-8">
                 GET IN TOUCH
               </h2>
 
               {/*Contact Paragraph*/}
               <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
                 <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2 items-center md:text-left text-center">
-                  <p className="leading-7 text-sm text-[#213053]">
+                  <p className="leading-7 text-sm text-gray-200">
                     Contact us any time for getting support.
                   </p>
                 </div>
@@ -106,7 +106,7 @@ const Footer = () => {
               {/*Social Media Icon Container*/}
               <span className="inline-flex sm:ml-auto md:pt-4 my-4 justify-center sm:justify-start transition-all ease-in-out">
                 {/*Facebook Icon*/}
-                <a className="text-[#213053] cursor-pointer hover:scale-125 transition-all ease-in-out">
+                <a className="text-gray-200 cursor-pointer hover:scale-125 transition-all ease-in-out">
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -120,7 +120,7 @@ const Footer = () => {
                 </a>
 
                 {/*Twitter Icon*/}
-                <a className="ml-3 text-[#213053] cursor-pointer hover:scale-125 transition-all ease-in-out">
+                <a className="ml-3 text-gray-200 cursor-pointer hover:scale-125 transition-all ease-in-out">
                   <svg
                     fill="currentColor"
                     strokeLinecap="round"
@@ -134,7 +134,7 @@ const Footer = () => {
                 </a>
 
                 {/*Instagram Icon*/}
-                <a className="ml-3 text-[#213053] cursor-pointer hover:scale-125 transition-all ease-in-out">
+                <a className="ml-3 text-gray-200 cursor-pointer hover:scale-125 transition-all ease-in-out">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -157,7 +157,7 @@ const Footer = () => {
                 </a>
 
                 {/*Linked In Icon*/}
-                <a className="ml-3 text-[#213053] cursor-pointer hover:scale-125 transition-all ease-in-out">
+                <a className="ml-3 text-gray-200 cursor-pointer hover:scale-125 transition-all ease-in-out">
                   <svg
                     fill="currentColor"
                     stroke="currentColor"
@@ -178,7 +178,10 @@ const Footer = () => {
 
               {/*Bottom URL @umweo.com*/}
               <div className="py-4 text-[12px] md:text-[14px]">
-                <a className="text-[#39becf] hover:text-[#ca2124]" href="/">
+                <a
+                  className="text-[#ca2124] hover:text-[#39becf] text-lg"
+                  href="/"
+                >
                   www.express.convenir.com
                 </a>
               </div>
@@ -186,6 +189,9 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className=" w-full border-t border-gray-600 text-center justify-center items-center py-4">
+        ©2023 Convenir Express
+      </div>
     </div>
   );
 };

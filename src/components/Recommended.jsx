@@ -1,12 +1,12 @@
-import appstore from "../assets/images/appstore.png";
-import playstore from "../assets/images/playstore.png";
 import app from "../assets/images/app.png";
+import AppStore from "./apple";
+import Google from "./google";
 
 const Recommended = () => {
   return (
-    <div className=" grid md:grid-cols-2 min-h-screen w-full items-center justify-center lg:px-20 px-4 lg:flex-row gap-10 sm:mb-8">
+    <div className=" grid py-16 md:grid-cols-2 min-h-screen w-full items-center overflow-hidden justify-center lg:px-20 px-4 gap-10 sm:mb-8">
       <div className=" lg:text-left md:text-center sm:text-center">
-        <h1 className=" font-semibold lg:w-5/6 text-5xl">
+        <h1 className=" font-semibold lg:w-5/6 md:text-5xl text-3xl lg:text-left text-center">
           Get up to <span className=" text-[#ca2124]">20%</span> discount when
           making an order with our app
         </h1>
@@ -16,32 +16,19 @@ const Recommended = () => {
             blanditiis doloremque aliquam.
           </p>
         </div>
-        <div className=" flex gap-8 ">
-          <div className=" flex font-semibold text-lg mt-2 btn btn-primary w-full text-center justify-center lg:w-fit bg-white  text-black items-center gap-4">
-            <div>
-              <img
-                className=" md:w-64 md:h-22 h-24"
-                src={playstore}
-                alt="playstore"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div className=" flex font-semibold text-lg mt-2 btn btn-primary w-full text-center justify-center lg:w-fit bg-white  text-black p-3 items-center  gap-4 ">
-            <div>
-              <img
-                className=" md:w-72 md:h-28 "
-                src={appstore}
-                alt="appstore"
-                loading="lazy"
-              />
-            </div>
-          </div>
+        <div className=" flex gap-8 items-center justify-center lg:justify-start">
+          <AppStore />
+          <Google />
         </div>
       </div>
 
-      <div className=" w-72">
-        <img src={app} alt="appimage" loading="lazy" />
+      <div className=" w-full flex items-center justify-center h-fit">
+        <img
+          src={app}
+          alt="appimage"
+          loading="lazy"
+          className=" object-cover w-full h-[70vh]"
+        />
       </div>
     </div>
   );
