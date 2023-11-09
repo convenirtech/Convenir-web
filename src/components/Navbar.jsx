@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" fixed top-0 z-50 w-full lg:px-20 px-4 py-4 bg-[#ffe8e7]">
+    <div className=" fixed top-0 z-50 w-full lg:px-20 px-4 py-4 bg-[#ffe8e7] bg-opacity-80 backdrop-blur-md">
       <nav className=" flex justify-between w-full items-center">
         <div>
           <a href="/">
@@ -96,7 +96,7 @@ const Navbar = () => {
                 : { translateX: "100%", opacity: 0 }
             }
             transition={{ type: "tween" }}
-            className=" absolute right-0 top-[100%] bg-[#ffe8e7] shadow-md h-screen w-2/3"
+            className=" absolute right-0 top-[100%] bg-[#ffe8e7] shadow-md h-screen w-2/3 bg-opacity-[95%] backdrop-blur-lg"
           >
             <ul className=" grid gap-4 mt-4 p-4 text-left items-start justify-start w-full">
               <div className=" hover:text-[#ca2124] cursor-pointer">
