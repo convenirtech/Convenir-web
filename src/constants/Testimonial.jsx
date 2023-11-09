@@ -4,21 +4,21 @@ import p3 from "../assets/p3.png";
 
 export const Testimonials = [
   {
-    image: { p1 },
+    image: p1,
     name: "Samuel Doe",
     summary:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Rerum quo dolore cupiditate dolores iure veniam eos autem. Est adipisci in animi eligendi eum consequatur! Velit nisi consequatur assumenda impedit quos, obcaecati, optio quibusdam.",
     rating: "",
   },
   {
-    image: { p2 },
+    image: p2,
     name: "Jane Doe",
     summary:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Rerum quo dolore cupiditate dolores iure veniam eos autem. Est adipisci in animi eligendi eum consequatur! Velit nisi consequatur assumenda impedit quos, obcaecati, optio quibusdam.",
     rating: "",
   },
   {
-    image: { p3 },
+    image: p3,
     name: "Nathan Doe",
     summary:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit Rerum quo dolore cupiditate dolores iure veniam eos autem. Est adipisci in animi eligendi eum consequatur! Velit nisi consequatur assumenda impedit quos, obcaecati, optio quibusdam.",
