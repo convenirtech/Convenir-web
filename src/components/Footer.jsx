@@ -24,7 +24,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="/about-us"
-                    className="text-[#213053] hover:text-[#39becf] cursor-pointer"
+                    className="text-[#213053] hover:text-[#ca2124] cursor-pointer"
                   >
                     About
                   </a>
@@ -32,19 +32,19 @@ const Footer = () => {
                 <li>
                   <a
                     href="/mental-health"
-                    className="text-[#213053] hover:text-[#39becf] cursor-pointer"
+                    className="text-[#213053] hover:text-[#ca2124] cursor-pointer"
                   >
                     Services
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
-                    Our Catalog
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                    Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
-                    Community
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
+                    Terms & Conditions
                   </a>
                 </li>
               </nav>
@@ -60,27 +60,27 @@ const Footer = () => {
               {/*Social Links*/}
               <nav className="list-none mb-10 space-y-2 md:space-y-4 text-[12px] md:text-[14px]">
                 <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
                     Facebook
                   </a>
                 </li>
-                <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
+                {/* <li>
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
                     Twitter
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
                     Instagram
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
                     Linkedln
                   </a>
                 </li>
                 <li>
-                  <a className="text-[#213053] hover:text-[#39becf] cursor-pointer">
+                  <a className="text-[#213053] hover:text-[#ca2124] cursor-pointer">
                     Whatsapp
                   </a>
                 </li>
@@ -178,7 +178,7 @@ const Footer = () => {
 
               {/*Bottom URL @umweo.com*/}
               <div className="py-4 text-[12px] md:text-[14px]">
-                <a className="text-[#39becf] hover:text-[#213053]" href="/">
+                <a className="text-[#39becf] hover:text-[#ca2124]" href="/">
                   www.express.convenir.com
                 </a>
               </div>
