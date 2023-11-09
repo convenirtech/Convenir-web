@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
           <a href="/">
             <img
               className=" lg:w-36 md:w-32 w-24 object-cover"
-              src="/src/assets/logo.png"
+              src={logo}
               alt="Logo"
               loading="lazy"
             />
