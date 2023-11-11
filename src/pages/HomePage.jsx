@@ -5,7 +5,7 @@ import Recommended from "../components/Recommended";
 import Services from "../components/Services";
 import Testimonial from "../components/Testimonial";
 
-const HomePage = () => {
+export default function HomePage() {
   return (
     <div>
       <Navbar />
@@ -16,6 +16,4 @@ const HomePage = () => {
       <Footer />
     </div>
   );
-};
-
-export default HomePage;
+}
