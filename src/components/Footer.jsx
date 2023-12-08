@@ -3,7 +3,7 @@ const Footer = () => {
     <div className=" bg-[#2f285d] text-white lg:pt-12 pt-10">
       {/* Footer heading Convenir */}
       <div className=" items-center flex w-full text-center">
-        <h1 className=" items-center pl-2 md:pl-6 w-full text-white font-bold text-2xl md:text-3xl">
+        <h1 className=" items-center pl-2 md:pl-6 w-full text-white font-bold text-lg lg:text-2xl md:text-3xl">
           Con<span className=" text-[#ca2124]">ven</span>ir
         </h1>
       </div>
