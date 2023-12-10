@@ -49,14 +49,14 @@ const Catalog = () => {
           </div>
           <div className=" grid lg:grid-cols-3 mt-8 gap-4 md:grid-cols-2">
             {catalog1.map((item, i) => (
-              <div key={i} className=" border p-4 rounded-xl grid gap-4 shadow-lg">
+              <div key={i} className=" border p-4 rounded-xl grid gap-4 shadow-md hover:shadow-xl duration-300 delay-200">
                 <div className=" text-7xl flex items-center justify-center">
                   {item.image}
                 </div>
                 <div className=" w-full justify-between flex items-center mt-4">
                   <div>
                     <p>{item.name}</p>
-                    <p>{item.price}</p>
+                    <p className=" text-gray-600">K {item.price}</p>
                   </div>
                   <button className=" flex group items-center gap-2 rounded-full px-1 md:px-2 md:py-1 border border-[#2f285d] hover:shadow-lg delay-100 duration-300">
                     <span>See detail</span>
