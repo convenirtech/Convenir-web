@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { catalog1 } from "../constants/catalog";
 
 const Catalog = () => {
   const navigation = useNavigate();
@@ -30,13 +31,14 @@ const Catalog = () => {
         <div className=" w-full flex flex-col mt-4">
           <div className=" w-full items-center flex justify-between">
             <span className=" text-[#2f285d] font-semibold">Lorem</span>
-            <button className=" flex items-center gap-2 rounded-full px-1 md:px-2 md:py-1 border border-[#2f285d] hover:shadow-lg delay-100 duration-300">
+            <button className=" flex group items-center gap-2 rounded-full px-1 md:px-2 md:py-1 border border-[#2f285d] hover:shadow-lg delay-100 duration-300">
               <span>See all</span>
               <svg
                 fill="currentColor"
                 viewBox="0 0 16 16"
                 height="1em"
                 width="1em"
+                className=" group-hover:scale-110 duration-300"
               >
                 <path
                   fillRule="evenodd"
@@ -44,6 +46,36 @@ const Catalog = () => {
                 />
               </svg>
             </button>
+          </div>
+          <div className=" grid lg:grid-cols-3 mt-8 gap-4 md:grid-cols-2">
+            {catalog1.map((item, i) => (
+              <div key={i} className=" border p-4 rounded-xl grid gap-4 shadow-lg">
+                <div className=" text-7xl flex items-center justify-center">
+                  {item.image}
+                </div>
+                <div className=" w-full justify-between flex items-center mt-4">
+                  <div>
+                    <p>{item.name}</p>
+                    <p>{item.price}</p>
+                  </div>
+                  <button className=" flex group items-center gap-2 rounded-full px-1 md:px-2 md:py-1 border border-[#2f285d] hover:shadow-lg delay-100 duration-300">
+                    <span>See detail</span>
+                    <svg
+                      fill="currentColor"
+                      viewBox="0 0 16 16"
+                      height="1em"
+                      width="1em"
+                      className=" group-hover:scale-110 duration-300"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.646 1.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L10.293 8 4.646 2.354a.5.5 0 010-.708z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </main>
