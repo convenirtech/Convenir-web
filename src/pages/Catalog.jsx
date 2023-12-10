@@ -53,7 +53,7 @@ const Catalog = () => {
                 key={i}
                 className=" border p-4 rounded-xl grid gap-4 shadow-md hover:shadow-xl duration-300 delay-200"
               >
-                <div className=" text-7xl flex items-center justify-center">
+                <div className=" text-7xl flex items-center py-6 justify-center">
                   {item.image}
                 </div>
                 <div className=" w-full justify-between flex items-center mt-4">
@@ -108,7 +108,7 @@ const Catalog = () => {
                 key={i}
                 className=" border p-4 rounded-xl grid gap-4 shadow-md hover:shadow-xl duration-300 delay-200"
               >
-                <div className=" text-7xl flex items-center justify-center">
+                <div className=" text-7xl flex items-center py-6 justify-center">
                   {item.image}
                 </div>
                 <div className=" w-full justify-between flex items-center mt-4">
@@ -135,7 +135,7 @@ const Catalog = () => {
                   </button>
                 </div>
               </div>
-            ))}
+            )).reverse()}
           </div>
         </div>
       </main>
