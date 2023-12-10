@@ -7,6 +7,7 @@ export const catalog1 = [
     ),
     name: "Product 1",
     price: "200",
+    rating:"4.1"
   },
   {
     image: (
@@ -16,6 +17,7 @@ export const catalog1 = [
     ),
     name: "Product 2",
     price: "200",
+    rating:"4.2"
   },
   {
     image: (
@@ -25,5 +27,6 @@ export const catalog1 = [
     ),
     name: "Product 3",
     price: "200",
+    rating:"4.5"
   },
 ];
