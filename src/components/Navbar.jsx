@@ -31,7 +31,7 @@ const Navbar = () => {
             <button onClick={handServices} className=" hover:text-[#ca2124]">
               Services
             </button>
-            <button className=" hover:text-[#ca2124]">Catalog</button>
+            <Link to={'/catalog'} className=" hover:text-[#ca2124]">Catalog</Link>
             <button className=" hover:text-[#ca2124]">Contact</button>
             <Link to={"login"}>
               <button className=" bg-[#ca2124] text-white p-3 rounded-full flex items-center gap-2 ">

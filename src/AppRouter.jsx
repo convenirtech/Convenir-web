@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
+import Catalog from "./pages/Catalog";
 
 const AppRouter = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const AppRouter = createBrowserRouter([
     path: "/login",
     element: <LoginPage />,
   },
+  {
+    path:"/catalog",
+    Component:Catalog
+  }
 ]);
 
 export default AppRouter;
