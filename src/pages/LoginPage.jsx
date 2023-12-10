@@ -6,7 +6,7 @@ import Password from "../components/Password";
 
 const LoginPage = () => {
   return (
-    <div className=" flex flex-col items-center text-center justify-center min-h-screen bg-red-100">
+    <div className=" flex flex-col items-center text-center justify-center min-h-screen bg-red-100 py-32">
       <main className=" flex flex-col items-center justify-center w-full flex-1 lg:px-20 px-10 text-center">
         {/* signin section */}
         <div className=" bg-white rounded-2xl shadow-2xl flex w-2/3 md:w-full sm:w-full max-w-4xl">
