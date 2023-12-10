@@ -6,13 +6,11 @@ import LoginPage from "./pages/LoginPage";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" Component={HomePage} />
-        <Route path="/catalog" Component={Catalog}/>
-        <Route path="/login" Component={LoginPage}/>
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" Component={HomePage} />
+      <Route path="/catalog" Component={Catalog} />
+      <Route path="/login" Component={LoginPage} />
+    </Routes>
   );
 }
 
